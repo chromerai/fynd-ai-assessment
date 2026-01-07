@@ -22,8 +22,11 @@ This repository contains a complete implementation of both Task 1 and Task 2 for
 - [Admin Dashboard](https://fynd-ai-frontend.vercel.app/admin)
 - [Backend API](https://fynd-ai-backend-em0i.onrender.com/api/health)
 
-Admin Dashboard can take a few seconds (~ 1min) to spin up due to *Render Cold Starts: 30-60 second delay after 15 min idle*
-Solution: Paid tier ($7/mo) OR cron job, a ping or a health-check to keep alive( already have that api endpoint need to setup a timer that can match the rhythm) or auto refresh!
+Admin Dashboard can take a few seconds (~ 1min) to spin up due to *Render Cold Starts: 30-60 second delay after 15 min idle*<br>
+Solution: 
+- Paid tier ($7/mo) OR 
+- cron job, 
+- a ping or a health-check to keep alive( already have that api endpoint need to setup a timer that can match the rhythm) or auto refresh!
 
 ```
 ┌─────────────────┐
