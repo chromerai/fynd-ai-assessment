@@ -18,9 +18,9 @@ This repository contains a complete implementation of both Task 1 and Task 2 for
 
 ## Live Demo URLs
 
-- [User Dashboard](https://your-app.vercel.app/)
-- [Admin Dashboard](https://your-app.vercel.app/admin)
-- [Backend API](https://your-backend.onrender.com)
+- [User Dashboard]( https://fynd-ai-frontend.vercel.app/)
+- [Admin Dashboard](https://fynd-ai-frontend.vercel.app/admin)
+- [Backend API](https://fynd-ai-backend-em0i.onrender.com)
 
 ```
 ┌─────────────────┐
