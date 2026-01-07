@@ -3,7 +3,7 @@ const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000
 // API Service
 export const api = {
   submitReview: async (rating, reviewText, name, email) => {
-    const response = await fetch(`${API_BASE_URL}/reviews`, {
+    const response = await fetch(`${API_BASE_URL}/api/reviews`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ rating, reviewText, name, email })
@@ -13,7 +13,7 @@ export const api = {
   },
   
   getReviews: async () => {
-    const response = await fetch(`${API_BASE_URL}/reviews`);
+    const response = await fetch(`${API_BASE_URL}/api/reviews`);
     if (!response.ok) throw new Error('Failed to fetch reviews');
     return response.json();
   }
