@@ -1,0 +1,4 @@
+Approach,JSON Validity (%),Exact Accuracy (%),Avg_Latency (sec),Off-by-1 Accuracy (%),Mean Absolute Error
+Approach 1: Direct,97.5,60.0,3.3539,97.4,0.43
+Approach 2: Rubric Based,88.5,63.3,4.5209,98.3,0.38
+Approach 3: Chain-of-Thought,55.0,64.5,4.6556,98.2,0.37
