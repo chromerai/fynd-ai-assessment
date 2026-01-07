@@ -11,8 +11,11 @@ const PORT = process.env.PORT
 const app = express();
 
 app.use(cors({
-    origin: '*',  // Allow all origins for now
-    credentials: true,
+    origin: [
+    'http://localhost:5173',
+    'https://fynd-ai-frontend.vercel.app/'
+  ],
+  credentials: true
 }))
 app.use(express.json())
 
