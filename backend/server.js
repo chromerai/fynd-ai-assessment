@@ -10,7 +10,10 @@ const PORT = process.env.PORT
 
 const app = express();
 
-app.use(cors())
+app.use(cors({
+    origin: '*',  // Allow all origins for now
+    credentials: true,
+}))
 app.use(express.json())
 
 const clientOptions = { serverApi: { version: '1', strict: true, deprecationErrors: true } };
